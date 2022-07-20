@@ -72,104 +72,20 @@ def main():
 
     print("You have selected car " + choice)
     if choice == "1":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car1.brand))
-        elif i == 1:
-          print("The model is "+str(car1.model))
-        elif i == 2:
-          print("The year is "+str(car1.year))
-        elif i == 3:
-          print("The price is $"+str(car1.price))
-        else:
-          print("The mileage is "+str(car1.mileage)+" miles")
-        i += 1
+      car1.display()
         
     if choice == "2":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car2.brand))
-        elif i == 1:
-          print("The model is "+str(car2.model))
-        elif i == 2:
-          print("The year is "+str(car2.year))
-        elif i == 3:
-          print("The price is $"+str(car2.price))
-        else:
-          print("The mileage is "+str(car2.mileage)+" miles")
-        i += 1
+      car2.display()
     if choice == "3":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car3.brand))
-        elif i == 1:
-          print("The model is "+str(car3.model))
-        elif i == 2:
-          print("The year is "+str(car3.year))
-        elif i == 3:
-          print("The price is $"+str(car3.price))
-        else:
-          print("The mileage is "+str(car3.mileage)+" miles")
-        i += 1
+      car3.display()
     if choice == "4":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car4.brand))
-        elif i == 1:
-          print("The model is "+str(car4.model))
-        elif i == 2:
-          print("The year is "+str(car4.year))
-        elif i == 3:
-          print("The price is $"+str(car4.price))
-        else:
-          print("The mileage is "+str(car4.mileage)+" miles")
-        i += 1
+      car4.display()
     if choice == "5":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car5.brand))
-        elif i == 1:
-          print("The model is "+str(car5.model))
-        elif i == 2:
-          print("The year is "+str(car5.year))
-        elif i == 3:
-          print("The price is $"+str(car5.price))
-        else:
-          print("The mileage is "+str(car5.mileage)+" miles")
-        i += 1
+      car5.display()
     if choice == "6":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car6.brand))
-        elif i == 1:
-          print("The model is "+str(car6.model))
-        elif i == 2:
-          print("The year is "+str(car6.year))
-        elif i == 3:
-          print("The price is $"+str(car6.price))
-        else:
-          print("The mileage is "+str(car6.mileage)+" miles")
-        i += 1
+      car6.display()
     if choice == "7":
-      i=0
-      while i < 5:
-        if i == 0:
-          print("The brand is a "+str(car7.brand))
-        elif i == 1:
-          print("The model is "+str(car7.model))
-        elif i == 2:
-          print("The year is "+str(car7.year))
-        elif i == 3:
-          print("The price is $"+str(car7.price))
-        else:
-          print("The mileage is "+str(car7.mileage)+" miles")
-        i += 1
+      car7.display()
     
     print("Where would you like the car to be placed?")
 
